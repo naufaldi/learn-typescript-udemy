@@ -18,6 +18,9 @@ const person: {
 // person.role[1] = 10;
 
 // person.role = [0, 'admin', 'user'];
+enum Role {ADMIN, READ_ONLY, AUTHOR};
+//bisa juga
+enum Rolesecond {ADMIN = 5, READ_ONLY, AUTHOR};
 
 let favoriteActivities: string[];
 favoriteActivities = ['Sports'];
